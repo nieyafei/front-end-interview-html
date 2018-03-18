@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 </head>
 <body>
   <div id="app">欢迎访问CODEHTML,蜗牛正在LOADING...</div>
@@ -19,7 +20,7 @@
       loadSidebar: true,
       loadSidebar: '_sidebar.md',
       subMaxLevel: 2,
-      ga: 'UA-111446331-1',
+      ga: 'UA-115957523-1',
       search: {
         noData: {
           '/': '找不到结果!'
@@ -33,5 +34,21 @@
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/ga.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'fc7f29b32293bdda6566',
+      clientSecret: 'ee44f4b8728133ae70c55edaef24c505dc1269bf',
+      repo: 'front-end-interview-html',
+      owner: 'nieyafei',
+      admin: ['nieyafei'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
 </body>
 </html>
