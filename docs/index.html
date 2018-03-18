@@ -12,15 +12,26 @@
   <div id="app">欢迎访问CODEHTML,蜗牛正在LOADING...</div>
   <script>
     window.$docsify = {
-      name: '',
+      name: 'Font-end-interview-html',
       repo: 'https://github.com/nieyafei/front-end-interview-html',
       themeColor: '#FF6347',
       coverpage: true,
       loadSidebar: true,
       loadSidebar: '_sidebar.md',
-      subMaxLevel: 2
+      subMaxLevel: 2,
+      ga: 'UA-111446331-1',
+      search: {
+        noData: {
+          '/': '找不到结果!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': '搜索'
+        }
+      },
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
 </body>
 </html>
