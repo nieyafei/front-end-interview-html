@@ -13,8 +13,10 @@
 |访问权限|任意窗口|任意窗口|当前页面窗口|
 
 **题目来源**
+
 [来源链接](https://github.com/yangshun/front-end-interview-handbook/blob/master/Translations/Chinese/README.md)
 
 **参考**
+
 - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 - [http://tutorial.techaltum.com/local-and-session-storage.html](http://tutorial.techaltum.com/local-and-session-storage.html)
