@@ -9,6 +9,7 @@
   * [webSocket如何兼容低浏览器？(阿里)](websocket.md)
   * [如何实现浏览器内多个标签页之间的通信? (阿里)](html-tx.md)
   * [iframe有那些缺点？](iframe.md)
+  * [href和src的区别](html-hs.md)
 
 * HTML5
   * [HTML5 为什么只需要写 <!DOCTYPE HTML>？](html5-1.md)
