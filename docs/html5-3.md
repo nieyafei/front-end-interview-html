@@ -2,7 +2,7 @@
 
 - `语意化标签` article、footer、header、nav、section
 
-- 新增选择器 document.querySelector、document.querySelectorAll
+- `新增选择器` document.querySelector、document.querySelectorAll
 
 - `拖拽释放(Drag and drop) API`
 
