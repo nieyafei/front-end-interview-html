@@ -14,3 +14,5 @@
 
 * HTML5
   * [HTML5 为什么只需要写 <!DOCTYPE HTML>？](html5-1.md)
+  * [Canvas和SVG的区别](html5-2.md)
+  * [HTML5有哪些新特性？](html5-3.md)
