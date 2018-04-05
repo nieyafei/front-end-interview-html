@@ -11,6 +11,7 @@
   * [iframe有那些缺点？ ](iframe.md)
   * [<span></span>href和src的区别?](html-hs.md)
   * [<span></span>行内元素、块级元素、空元素都有哪些?<span class='new'></span>](html-line.md)
+  * [Quirks模式是什么？它和Standards模式有什么区别?](html/hl-1.md)
 
 * HTML5
   * [什么是HTML5？](html5.md)
